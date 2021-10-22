@@ -1,5 +1,7 @@
 Proteus adapter for e46 non-M3 BMW
 
+(E39 m54 should be the ms42/43 like the e46, E39 ~= E46)
+
 https://github.com/rusefi/rusefi/wiki/BMW-e46
 
 134 pin + Nissan board outline
