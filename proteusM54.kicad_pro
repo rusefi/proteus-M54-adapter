@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|102500000|65934104|4e6825d8-b63d-4202-bfed-30c097101469|ed25615e-801b-4c72-80a0-92014cf54dd5",
+        "silk_over_copper|238913334|192287501|4fad736a-ad41-4e59-bac5-c7a25f20cb3a|d0469232-0663-45dd-be94-93903ca4d58b",
+        "silk_over_copper|239088340|192437506|b596c925-cb91-43ca-b2ee-c06ec9ea943c|d0469232-0663-45dd-be94-93903ca4d58b",
+        "silk_over_copper|239088340|202412498|b596c925-cb91-43ca-b2ee-c06ec9ea943c|11514344-eecf-4999-835a-dd3211d67ca9",
+        "silk_over_copper|239088340|202912499|b596c925-cb91-43ca-b2ee-c06ec9ea943c|a9c9d37a-9582-4afa-9e3e-93d219876de9",
+        "silk_over_copper|241500000|65934104|b968969c-11a1-4766-a449-a1291dc9bc81|b6e78b52-9662-4e0f-9fd4-6ae8ba896351"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -113,7 +120,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.299,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.299,
@@ -427,7 +434,7 @@
       "netlist": "hw48na.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": "gerber/hellen64_miataNA6_94.wrl"
+      "vrml": "proteusM54/gerber/proteusM54.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -466,7 +473,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "gerber/",
+    "plot_directory": "proteusM54bmw/gerber/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
