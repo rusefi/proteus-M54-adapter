@@ -9,3 +9,5 @@ https://github.com/rusefi/rusefi/wiki/BMW-e46
 https://raw.githubusercontent.com/wiki/rusefi/rusefi/OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_ecu.png
 
 https://docs.google.com/spreadsheets/d/16_VjNrk-DbMP_yDqGFelwavrGfiC9wFp73RgForjQzM
+
+![x](https://rusefi.com/forum/download/file.php?id=8828)
